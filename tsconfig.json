@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "lib": [
-      "dom",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "target": "es5",
+    "lib": ["dom", "dom.Iterable", "ESNext"],
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -18,10 +14,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
